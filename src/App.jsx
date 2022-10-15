@@ -28,9 +28,9 @@ function App() {
   }
 
   return (
-    <div className="bg-sky-700">
-      <h1 className="text-4xl text-center p-5">Animes de Temporada</h1>
-      <div className="grid grid-cols-5 gap-4 place-content-center place-items-center">
+    <div className="bg-slate-800">
+      <h1 className="font-cobin font-bold text-white text-4xl text-center p-5">Animes de Temporada</h1>
+      <div className="grid sm:grid-cols-4 grid-cols-1 place-content-center place-items-center">
         {info.map((x) => (
           <Card
             key={x.mal_id}

@@ -5,6 +5,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'zen': 'Zen Kurenaido, sans-serif',
+      'cobin': 'Cobin, sans-serif',
+    },
     extend: {},
   },
   plugins: [],

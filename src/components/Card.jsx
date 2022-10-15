@@ -2,13 +2,13 @@ import React from "react";
 
 const Card = ({ img, title, titleJap }) => {
   return (
-    <article className="relative w-54 h-full">
+    <article className="relative w-54 m-3">
       <figure className="object-contain">
-        <img className="h-80 w-60" src={img} />
+        <img className="" src={img} />
       </figure>
-      <header className="absolute bottom-0 bg-gradient-to-t from-blue-500 w-full p-1.5">
-        <h3 className="text-sm text-white">{title}</h3>
-        <h4 className="text-xs">{titleJap}</h4>
+      <header className="flex flex-col justify-end absolute bottom-0 bg-gradient-to-t from-black w-full h-24 p-1.5">
+        <h3 className="font-cobin font-bold text-lg text-white">{title}</h3>
+        <h4 className="font-zen text-sm text-white">{titleJap}</h4>
       </header>
     </article>
   );
